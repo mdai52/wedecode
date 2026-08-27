@@ -164,7 +164,7 @@ function restoreSingle(ops: any, withScope = false) {
           }
           break;
         }
-      case 4: // unkown-arrayStart? 将操作符下 数组 拼接数组成字符串形式
+      case 4: // unknown-arrayStart? 将操作符下 数组 拼接数组成字符串形式
         ans = restoreNext(ops[1], true);
         break;
       case 5: // merge-array
